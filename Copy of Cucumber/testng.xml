@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CucumberTestNG">
+<listeners>
+<listener class-name="runner.Reports_Screenshot"></listener>
+</listeners>
+  <test name="Cucumber1">
+    <classes>
+      <class name="stepDefinition.GlueCode"/>
+    </classes>
+  </test> <!-- Cucumber1 -->
+</suite> <!-- CucumberTestNG -->
