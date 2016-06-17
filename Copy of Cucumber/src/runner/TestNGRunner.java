@@ -7,7 +7,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 //@RunWith(Cucumber.class)
-@CucumberOptions(features="FeatureFile/login.feature",glue="stepDefinition",plugin={"html:Reports"},monochrome=true)
+@CucumberOptions(dryRun=false,features="FeatureFile/login.feature",glue="stepDefinition",plugin={"html:Reports"},monochrome=true)
 
 
 public class TestNGRunner extends AbstractTestNGCucumberTests {
