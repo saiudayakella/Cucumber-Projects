@@ -1,0 +1,8 @@
+123
+master
+<<<<<<< HEAD
+new branch
+=======
+
+child
+>>>>>>> a
